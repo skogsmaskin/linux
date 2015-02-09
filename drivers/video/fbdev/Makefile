@@ -6,6 +6,8 @@
 
 obj-y				+= core/
 
+obj-y 				+= fbtft/
+
 obj-$(CONFIG_EXYNOS_VIDEO)     += exynos/
 
 obj-$(CONFIG_FB_MACMODES)      += macmodes.o
